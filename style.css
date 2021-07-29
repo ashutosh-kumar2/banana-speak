@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break:600px
+}
+
+body {
+    margin: 0;
+    font-family: 'Tillana', sans-serif;
+    color: #333333;
+    background-color: #F9FAFB;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem;
+}
+
+.header {
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0px;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 1rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 15vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+.footer-header {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
