@@ -39,7 +39,7 @@ textarea {
     display: block;
     width: 100%;
     min-height: 20vh;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     font-size: large;
     font-family: inherit;
 }
