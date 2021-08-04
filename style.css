@@ -20,7 +20,6 @@ body {
 nav {
     background-color: var(--primary);
     text-align: center;
-    padding: 1rem;
 }
 
 .header {
@@ -58,7 +57,7 @@ button {
 #output {
     box-sizing: border-box;
     width: 100%;
-    min-height: 10vh;
+    min-height: 20vh;
     max-height: 20vh;
     overflow:scroll;
     border: 1px solid var(--black);
