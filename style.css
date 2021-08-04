@@ -7,7 +7,7 @@
 :root {
     --primary: #F2C94C;
     --black: #333333;
-    --width-break:600px
+    --width-break:600px;
 }
 
 body {
@@ -50,7 +50,7 @@ button {
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
-    font-family: 'Kalam', cursive;
+    font-family: 'Tillana', cursive;
     font-size: large;
 }
 
