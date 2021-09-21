@@ -5,10 +5,9 @@
 }
 
 :root{
-    --primary: #FDE047 ;
+    --primary: #FACC15;
     --black: #333333;
     --width-break: 600px;
-    /* #93C5FD */
 }
 
 body{
