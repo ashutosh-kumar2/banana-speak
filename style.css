@@ -1,83 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
-* {
+*{
     box-sizing: border-box;
 }
 
-:root {
-    --primary: #F2C94C;
+:root{
+    --primary: #FDE047 ;
     --black: #333333;
-    --width-break:600px;
+    --width-break: 600px;
+    /* #93C5FD */
 }
 
-body {
+body{
+    font-family: 'Urbanist', sans-serif;
     margin: 0;
-    font-family: 'Tillana', sans-serif;
-    color: #333333;
-    background-color: #F9FAFB;
+    color: var(--black);
 }
 
-nav {
+nav{
     background-color: var(--primary);
     text-align: center;
+    border-bottom-left-radius: 1rem;
 }
 
-.header {
+.header{
     font-size: 2rem;
-    padding: 1rem;
-    margin: 0px;
+    padding: 2rem;
+    margin: 0;
 }
 
-main {
-    margin: auto;
-    padding: 1rem;
-    max-width: var(--width-break);
-}
-
-textarea {
+nav .link{
     box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--black);
+    text-align: right;
     display: block;
+    font-size: large;
+    font-weight: 500;
+}
+
+.link-attribute {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.link-attribute .link {
+    text-decoration: none;
+    color: var(--black);
+}
+
+main{
+    margin: auto;
+    max-width: var(--width-break);
+    padding:1rem;
+}
+
+.hero-img{
+    padding: 1rem 1rem;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 50vh;
+}
+
+textarea{
     width: 100%;
     min-height: 20vh;
-    /* margin-top: 1rem; */
+    display: block;
     font-size: large;
     font-family: inherit;
-}
-
-button {
-    background-color: var(--primary);
-    border: none;
-    margin: 1rem 0rem;
-    padding: 1rem 2rem;
-    font-family: 'Tillana', cursive;
-    font-size: large;
-}
-
-
-#output {
     box-sizing: border-box;
-    width: 100%;
+}
+
+button{
+    background-color: var(--primary);
+    padding: 1rem 2rem;
+    font-family: inherit;
+    margin: 1rem 0rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+#output{
+    box-sizing: border-box;
+    max-width: var(--width-break);
     min-height: 20vh;
     max-height: 20vh;
-    overflow:scroll;
     border: 1px solid var(--black);
+    margin: 1rem 0rem;
+    overflow: scroll;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 0.5rem;
+footer{
     background-color: var(--primary);
+    text-align: center;
+    width: 100%;
+    border-top-right-radius: 1rem;
+}
+
+.footer-header{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.outer{
+    padding:1rem;
+}
+
+footer p{
+    max-width: var(--width-break);
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid var(--black);
+    border-radius: 1rem;
+}
+
+.social{
+    padding: 1rem 0rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 
-.footer-header {
-    font-size: x-large;
-    font-weight: bold;
+.portfolio{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: var(--black);
 }
 
-footer p {
-    max-width: var(--width-break);
-    margin: auto;
+.list-non-bullet{
+    list-style: none;
+    padding-inline-start: 0px;
+    padding: 0.5rem 0rem;
+    margin: 0;
+}
+
+.list-inline-item{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+
+.icon {
+    margin-top: 0.625rem;
+	width: 40px;
+	height: 40px;
 }
